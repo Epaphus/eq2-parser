@@ -1,0 +1,8 @@
+*.class
+*.pyc
+*.pyo
+.project
+/vendor/*
+/log/*
+eq2log.txt
+test.sh
