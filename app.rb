@@ -25,6 +25,7 @@ end
 # Output some stuff to show Parser has started up
 date = Time.new
 @outputfile = File.new(@outputlogfile, "a+")
+@outputfile.sync =true
 @outputfile.puts("")
 @outputfile.puts("")
 @outputfile.puts("===================")
